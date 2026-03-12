@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
-import { HandHeart, ChevronLeft, ChevronRight, Activity, Brain, Shield, Users, BarChart3, Zap, Target, TrendingUp, Award } from "lucide-react";
+import { ChevronLeft, ChevronRight, Activity, Brain, Shield, Users, BarChart3, Zap, Target, TrendingUp, Award } from "lucide-react";
+import SecondShiftLogo from "@/components/SecondShiftLogo";
 import ActivityRing from "@/components/ActivityRing";
 import nightshiftCover from "@/assets/nightshift-cover.png";
 import heroBg from "@/assets/hero-bg.jpg";
@@ -118,7 +119,7 @@ const TitleSlide = () => (
     <div className="relative z-10 flex items-center gap-24">
       <div>
         <div className="flex items-center gap-3 mb-6">
-          <HandHeart className="w-12 h-12 text-accent" />
+          <SecondShiftLogo size={48} className="text-accent" />
           <span className="font-display text-3xl font-bold text-foreground">SecondShift</span>
         </div>
         <h1 className="text-7xl font-display font-bold leading-[1.05] mb-6">
@@ -486,7 +487,7 @@ const RoadmapSlide = () => (
 /* ---- SLIDE 11: Team ---- */
 const TeamSlide = () => (
   <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-dark">
-    <HandHeart className="w-16 h-16 text-accent mb-6" />
+    <SecondShiftLogo size={64} className="text-accent mb-6" />
     <h2 className="text-6xl font-display font-bold text-foreground mb-4">Thank You</h2>
     <p className="text-2xl text-gradient-primary font-display font-semibold mb-12">SecondShift — The Invisible Burden, Made Visible</p>
     <div className="flex gap-8 mb-12">
