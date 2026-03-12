@@ -119,7 +119,7 @@ const TitleSlide = () => (
     <div className="relative z-10 flex items-center gap-24">
       <div>
         <div className="flex items-center gap-3 mb-6">
-          <HandHeart className="w-12 h-12 text-accent" />
+          <SecondShiftLogo size={48} className="text-accent" />
           <span className="font-display text-3xl font-bold text-foreground">SecondShift</span>
         </div>
         <h1 className="text-7xl font-display font-bold leading-[1.05] mb-6">
