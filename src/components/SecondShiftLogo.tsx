@@ -10,28 +10,28 @@ const SecondShiftLogo = ({ className = "", size = 24 }: SecondShiftLogoProps) =>
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    strokeWidth={2}
+    strokeWidth={1.8}
     strokeLinecap="round"
     strokeLinejoin="round"
     className={className}
   >
     {/* Head */}
-    <ellipse cx="12" cy="3.5" rx="2.2" ry="2.8" />
-    {/* Shoulders/torso */}
-    <path d="M6 10.5C6 8.5 8.5 7 12 7s6 1.5 6 3.5v2c0 .4-.2.7-.5.9L12 16.5l-5.5-3.1c-.3-.2-.5-.5-.5-.9v-2z" />
-    {/* Left arm */}
-    <path d="M6 11c-1.2.8-2 1.8-2 3s.8 1.5 1.5 1L9 13" strokeWidth={2} />
-    {/* Right arm */}
-    <path d="M18 11c1.2.8 2 1.8 2 3s-.8 1.5-1.5 1L15 13" strokeWidth={2} />
-    {/* Heart held in hands */}
+    <ellipse cx="12" cy="4" rx="2.5" ry="3" />
+    {/* Shoulders/body — wide rounded trapezoid */}
+    <path d="M5.5 16 C5.5 11, 7 8.5, 12 8.5 C17 8.5, 18.5 11, 18.5 16" />
+    {/* Left arm curving inward to hold heart */}
+    <path d="M5.5 13 C3.5 13.5, 3 15, 4.5 16 L8 14.5" />
+    {/* Right arm curving inward to hold heart */}
+    <path d="M18.5 13 C20.5 13.5, 21 15, 19.5 16 L16 14.5" />
+    {/* Heart — centered below chest */}
     <path
-      d="M12 21.5l-3.5-3.5c-1.5-1.5-1.8-3-.8-4.2 1-1.2 2.5-1 3.3 0l1 1.2 1-1.2c.8-1 2.3-1.2 3.3 0 1 1.2.7 2.7-.8 4.2L12 21.5z"
+      d="M12 19.5 L9 16.5 C7.5 15, 7.8 13.5, 9 13 C10 12.6, 11.2 13, 12 14 C12.8 13, 14 12.6, 15 13 C16.2 13.5, 16.5 15, 15 16.5 Z"
       fill="currentColor"
-      strokeWidth={1.2}
+      strokeWidth={1.5}
     />
     {/* Legs */}
-    <line x1="10" y1="16.5" x2="10" y2="20" strokeWidth={2} strokeLinecap="round" />
-    <line x1="14" y1="16.5" x2="14" y2="20" strokeWidth={2} strokeLinecap="round" />
+    <line x1="10" y1="16" x2="10" y2="21" />
+    <line x1="14" y1="16" x2="14" y2="21" />
   </svg>
 );
 
