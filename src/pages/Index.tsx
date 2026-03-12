@@ -173,7 +173,7 @@ const Index = () => {
       <footer className="py-8 border-t border-border">
         <div className="container mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <HandHeart className="w-4 h-4 text-accent" />
+            <SecondShiftLogo size={16} className="text-accent" />
             <span className="font-display text-sm text-muted-foreground">SecondShift</span>
           </div>
           <p className="text-xs text-muted-foreground">© 2026 Team 5. All rights reserved.</p>
