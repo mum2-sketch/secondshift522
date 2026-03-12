@@ -1,4 +1,4 @@
-import { Heart, Activity, Brain, Shield, ChevronRight } from "lucide-react";
+import { HandHeart, Activity, Brain, Shield, ChevronRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import ActivityRing from "@/components/ActivityRing";
 import StatsCard from "@/components/StatsCard";
