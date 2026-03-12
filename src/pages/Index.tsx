@@ -1,4 +1,4 @@
-import { Heart, Activity, Brain, Shield, ChevronRight } from "lucide-react";
+import { HandHeart, Activity, Brain, Shield, ChevronRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import ActivityRing from "@/components/ActivityRing";
 import StatsCard from "@/components/StatsCard";
@@ -23,7 +23,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full z-50 border-b border-border bg-background/80 backdrop-blur-xl">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Heart className="w-6 h-6 text-accent" />
+            <HandHeart className="w-6 h-6 text-accent" />
             <span className="font-display font-bold text-lg text-foreground">SecondShift</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -172,7 +172,7 @@ const Index = () => {
       <footer className="py-8 border-t border-border">
         <div className="container mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Heart className="w-4 h-4 text-accent" />
+            <HandHeart className="w-4 h-4 text-accent" />
             <span className="font-display text-sm text-muted-foreground">SecondShift</span>
           </div>
           <p className="text-xs text-muted-foreground">© 2026 Team 5. All rights reserved.</p>
