@@ -486,7 +486,7 @@ const RoadmapSlide = () => (
 /* ---- SLIDE 11: Team ---- */
 const TeamSlide = () => (
   <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-dark">
-    <Heart className="w-16 h-16 text-accent mb-6" />
+    <HandHeart className="w-16 h-16 text-accent mb-6" />
     <h2 className="text-6xl font-display font-bold text-foreground mb-4">Thank You</h2>
     <p className="text-2xl text-gradient-primary font-display font-semibold mb-12">SecondShift — The Invisible Burden, Made Visible</p>
     <div className="flex gap-8 mb-12">
