@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
-import { HandHeart, ChevronLeft, ChevronRight, Activity, Brain, Shield, Users, BarChart3, Zap, Target, TrendingUp, Award } from "lucide-react";
+import { ChevronLeft, ChevronRight, Activity, Brain, Shield, Users, BarChart3, Zap, Target, TrendingUp, Award } from "lucide-react";
+import SecondShiftLogo from "@/components/SecondShiftLogo";
 import ActivityRing from "@/components/ActivityRing";
 import nightshiftCover from "@/assets/nightshift-cover.png";
 import heroBg from "@/assets/hero-bg.jpg";

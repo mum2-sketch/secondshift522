@@ -1,4 +1,5 @@
-import { HandHeart, Activity, Brain, Shield, ChevronRight } from "lucide-react";
+import { Activity, Brain, Shield, ChevronRight } from "lucide-react";
+import SecondShiftLogo from "@/components/SecondShiftLogo";
 import heroBg from "@/assets/hero-bg.jpg";
 import ActivityRing from "@/components/ActivityRing";
 import StatsCard from "@/components/StatsCard";
