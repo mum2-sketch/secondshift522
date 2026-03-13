@@ -12,9 +12,9 @@ const edaData = Array.from({ length: 24 }, (_, i) => ({ value: 2 + Math.sin(i * 
 const sleepData = Array.from({ length: 7 }, (_, i) => ({ value: 5.5 + Math.random() * 2.5 }));
 
 const rings = [
-  { progress: 87, color: "hsl(174 72% 50%)", label: "HRV", value: "42ms" },
-  { progress: 65, color: "hsl(340 82% 58%)", label: "Stress", value: "Low" },
-  { progress: 78, color: "hsl(32 95% 55%)", label: "Recovery", value: "Good" },
+  { progress: 87, color: "hsl(270 60% 58%)", label: "HRV", value: "42ms" },
+  { progress: 65, color: "hsl(340 82% 55%)", label: "Stress", value: "Low" },
+  { progress: 78, color: "hsl(174 72% 50%)", label: "Recovery", value: "Good" },
 ];
 
 const Index = () => {
@@ -138,10 +138,10 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-            <MetricCard title="Heart Rate" value="72" unit="bpm" trend="+3%" trendUp color="hsl(340, 82%, 58%)" data={hrData} delay={0} />
-            <MetricCard title="HRV (RMSSD)" value="42" unit="ms" trend="-8%" color="hsl(174, 72%, 50%)" data={hrvData} delay={0.1} />
+            <MetricCard title="Heart Rate" value="72" unit="bpm" trend="+3%" trendUp color="hsl(340, 82%, 55%)" data={hrData} delay={0} />
+            <MetricCard title="HRV (RMSSD)" value="42" unit="ms" trend="-8%" color="hsl(270, 60%, 58%)" data={hrvData} delay={0.1} />
             <MetricCard title="EDA Level" value="2.4" unit="μS" trend="+12%" color="hsl(32, 95%, 55%)" data={edaData} delay={0.2} />
-            <MetricCard title="Sleep" value="6.8" unit="hrs" trend="+0.5" trendUp color="hsl(142, 72%, 50%)" data={sleepData} delay={0.3} />
+            <MetricCard title="Sleep" value="6.8" unit="hrs" trend="+0.5" trendUp color="hsl(174, 72%, 50%)" data={sleepData} delay={0.3} />
           </div>
 
           {/* Music Reference */}
