@@ -173,6 +173,7 @@ const Index = () => {
         <div className="container mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img src={wordmark} alt="SecondShift" className="h-6" />
+          </div>
           <p className="text-xs text-muted-foreground">© 2026 Team 5. All rights reserved.</p>
         </div>
       </footer>
