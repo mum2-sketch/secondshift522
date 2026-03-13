@@ -1,6 +1,6 @@
 import { Activity, Brain, Shield, ChevronRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import wordmark from "@/assets/secondshift-wordmark.png";
+import logo from "@/assets/secondshift-logo.png";
 import ActivityRing from "@/components/ActivityRing";
 import StatsCard from "@/components/StatsCard";
 import MetricCard from "@/components/MetricCard";
