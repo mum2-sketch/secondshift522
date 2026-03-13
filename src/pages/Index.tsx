@@ -173,7 +173,8 @@ const Index = () => {
       <footer className="py-8 border-t border-border">
         <div className="container mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src={logo} alt="SecondShift" className="h-6" />
+            <img src={icon} alt="SecondShift" className="h-6 w-6" />
+            <span className="font-display text-sm text-muted-foreground">SecondShift</span>
           </div>
           <p className="text-xs text-muted-foreground">© 2026 Team 5. All rights reserved.</p>
         </div>
