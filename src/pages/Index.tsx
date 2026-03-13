@@ -12,9 +12,9 @@ const edaData = Array.from({ length: 24 }, (_, i) => ({ value: 2 + Math.sin(i * 
 const sleepData = Array.from({ length: 7 }, (_, i) => ({ value: 5.5 + Math.random() * 2.5 }));
 
 const rings = [
-  { progress: 87, color: "hsl(174 72% 50%)", label: "HRV", value: "42ms" },
-  { progress: 65, color: "hsl(340 82% 58%)", label: "Stress", value: "Low" },
-  { progress: 78, color: "hsl(32 95% 55%)", label: "Recovery", value: "Good" },
+  { progress: 87, color: "hsl(270 60% 58%)", label: "HRV", value: "42ms" },
+  { progress: 65, color: "hsl(340 82% 55%)", label: "Stress", value: "Low" },
+  { progress: 78, color: "hsl(174 72% 50%)", label: "Recovery", value: "Good" },
 ];
 
 const Index = () => {
