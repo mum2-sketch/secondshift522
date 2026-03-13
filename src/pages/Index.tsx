@@ -24,7 +24,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full z-50 border-b border-border bg-background/80 backdrop-blur-xl">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src={logo} alt="SecondShift" className="h-12" />
+            <img src={logo} alt="SecondShift" className="h-24" />
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Features</a>
