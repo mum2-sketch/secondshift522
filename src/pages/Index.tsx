@@ -24,7 +24,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full z-50 border-b border-border bg-background/80 backdrop-blur-xl">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src={icon} alt="SecondShift" className="h-10 w-10" />
+            <img src={icon} alt="SecondShift" className="h-12 w-12" />
             <span className="font-display font-bold text-lg text-foreground">SecondShift</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -173,7 +173,7 @@ const Index = () => {
       <footer className="py-8 border-t border-border">
         <div className="container mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src={icon} alt="SecondShift" className="h-6 w-6" />
+            <img src={icon} alt="SecondShift" className="h-7 w-7" />
             <span className="font-display text-sm text-muted-foreground">SecondShift</span>
           </div>
           <p className="text-xs text-muted-foreground">© 2026 Team 5. All rights reserved.</p>
